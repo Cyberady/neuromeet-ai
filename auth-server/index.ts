@@ -69,7 +69,7 @@ try {
     );
   `);
 
-  // ✅ AUTH CONFIG
+  // ✅ AUTH CONFIG (FIXED)
   const auth = betterAuth({
     database: db,
     baseURL: process.env.BETTER_AUTH_URL,
@@ -88,9 +88,9 @@ try {
       "http://localhost:5173",
       "https://neuromeet-ai.onrender.com",
     ],
-  });
 
-   cookies: {
+    // 🔥 FIXED COOKIE CONFIG (INSIDE OBJECT)
+    cookies: {
       sessionToken: {
         attributes: {
           sameSite: "none",
@@ -99,9 +99,10 @@ try {
       },
     },
   });
+
   const app = express();
 
-  // ✅ CORS (FIXED FOR COOKIES)
+  // ✅ CORS (REQUIRED FOR COOKIES)
   app.use(
     cors({
       origin: [
@@ -112,7 +113,7 @@ try {
     })
   );
 
-  // ✅ AUTH ROUTES (FINAL FIX 🔥)
+  // ✅ AUTH ROUTES
   app.use("/api/auth", (req, res) => {
     console.log(`[Auth] ${req.method} ${req.url}`);
     return toNodeHandler(auth)(req, res);
@@ -127,7 +128,7 @@ try {
     res.status(200).json({ status: "ok" });
   });
 
-  // ✅ PORT (RENDER)
+  // ✅ PORT
   const PORT = process.env.PORT || 8080;
 
   app.listen(PORT, () => {
