@@ -7,9 +7,10 @@ import { toNodeHandler } from "better-auth/node";
 
 dotenv.config();
 
-// ✅ FIXED DB PATH
+// ✅ SQLite DB (local file in Render container)
 const db = new Database('./neromeet.db');
 
+// ✅ Create tables if not exist
 db.exec(`
   CREATE TABLE IF NOT EXISTS user (
     id TEXT PRIMARY KEY,
@@ -20,6 +21,7 @@ db.exec(`
     createdAt INTEGER NOT NULL,
     updatedAt INTEGER NOT NULL
   );
+
   CREATE TABLE IF NOT EXISTS session (
     id TEXT PRIMARY KEY,
     expiresAt INTEGER NOT NULL,
@@ -31,6 +33,7 @@ db.exec(`
     userId TEXT NOT NULL,
     FOREIGN KEY (userId) REFERENCES user(id)
   );
+
   CREATE TABLE IF NOT EXISTS account (
     id TEXT PRIMARY KEY,
     accountId TEXT NOT NULL,
@@ -47,6 +50,7 @@ db.exec(`
     updatedAt INTEGER NOT NULL,
     FOREIGN KEY (userId) REFERENCES user(id)
   );
+
   CREATE TABLE IF NOT EXISTS verification (
     id TEXT PRIMARY KEY,
     identifier TEXT NOT NULL,
@@ -57,35 +61,45 @@ db.exec(`
   );
 `);
 
+// ✅ Better Auth setup
 export const auth = betterAuth({
   database: db,
-  baseURL: process.env.BETTER_AUTH_URL, // ✅ no localhost fallback
+  baseURL: process.env.BETTER_AUTH_URL,
   secret: process.env.BETTER_AUTH_SECRET,
+
   emailAndPassword: { enabled: true },
+
   socialProviders: {
     google: {
       clientId: process.env.GOOGLE_CLIENT_ID!,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
     }
   },
-  trustedOrigins: [
-    "https://your-app.onrender.com" // ✅ FIXED
-  ]
+
+  // ✅ TEMP (we'll secure later)
+  trustedOrigins: ["*"]
 });
 
 const app = express();
 
+// ✅ CORS (TEMP open for testing)
 app.use(cors({
-  origin: "https://your-app.onrender.com", // ✅ FIXED
+  origin: "*",
   credentials: true,
 }));
 
-app.all("/api/auth/{*splat}", (req, res) => {
+// ✅ FIXED ROUTE HANDLER (IMPORTANT)
+app.all("/api/auth/*", (req, res) => {
   console.log(`[Better Auth] ${req.method} ${req.url}`);
   return toNodeHandler(auth)(req, res);
 });
 
-// ✅ FIXED PORT (RENDER REQUIRED)
+// ✅ ROOT ROUTE (optional)
+app.get("/", (req, res) => {
+  res.send("Auth Server Running ✅");
+});
+
+// ✅ RENDER PORT FIX
 const PORT = process.env.PORT || 8080;
 
 app.listen(PORT, () => {
