@@ -21,7 +21,10 @@ export function LoginAuth() {
   const handleGoogleLogin = async () => {
     setLoading(true); setError("");
     try {
-      await authClient.signIn.social({ provider: "google", callbackURL: "https://neuromeet-ai.onrender.com/dashboard" );
+      await authClient.signIn.social({
+        provider: "google",
+        callbackURL: "https://neuromeet-ai.onrender.com/dashboard",
+      });
     } catch {
       setError("Sign-in failed. Make sure Google OAuth is configured.");
       setLoading(false);
