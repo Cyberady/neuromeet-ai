@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { authClient } from "@/lib/auth";
+// import { authClient } from "@/lib/auth";
 import { useNavigate } from "react-router-dom";
 import { useTheme } from "@/lib/ThemeContext";
 
 export function LoginAuth() {
   const [loading, setLoading] = useState(false);
-  const [error,   setError]   = useState("");
+  const [error,   _setError]   = useState("");
   const navigate  = useNavigate();
   const { resolved } = useTheme();
   const d = resolved === "dark";
