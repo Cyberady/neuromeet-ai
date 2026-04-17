@@ -103,15 +103,17 @@ try {
     })
   );
 
-  app.use(toNodeHandler(auth));
-
-  app.get("/", (req, res) => {
+  // ✅ Health routes FIRST — before toNodeHandler intercepts everything
+  app.get("/", (_req, res) => {
     res.send("Auth Server Running ✅");
   });
 
-  app.get("/health", (req, res) => {
+  app.get("/health", (_req, res) => {
     res.status(200).json({ status: "ok" });
   });
+
+  // ✅ Auth handler AFTER health routes
+  app.use(toNodeHandler(auth));
 
   const PORT = process.env.PORT || 8080;
 
