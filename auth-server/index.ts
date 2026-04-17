@@ -86,12 +86,22 @@ try {
         attributes: {
           sameSite: "none",
           secure: true,
+          partitioned: true,
         },
       },
     },
     advanced: {
       ipAddress: {
         ipAddressHeaders: ["x-forwarded-for"],
+      },
+      crossSubdomainCookies: {
+        enabled: true,
+        domain: ".onrender.com",
+      },
+      defaultCookieAttributes: {
+        sameSite: "none",
+        secure: true,
+        partitioned: true,
       },
     },
   });
@@ -104,7 +114,7 @@ try {
         "http://localhost:5173",
         "http://localhost:8080",
         "https://neuromeet-ai.onrender.com",
-        "https://neuromeet-auth.onrender.com", // ✅ auth server itself for state cookie
+        "https://neuromeet-auth.onrender.com",
       ],
       credentials: true,
     })
