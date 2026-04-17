@@ -1,0 +1,1822 @@
+[
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "BackgroundTasks",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Form",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocket",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocketDisconnect",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "desc",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Float",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSessionLocal",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Meeting",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Transcript",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "MeetingSummary",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "ActionItem",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "MeetingAnalytics",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Meeting",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Transcript",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Participant",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "MeetingAnalytics",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Meeting",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Transcript",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Participant",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "ActionItem",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "MeetingSummary",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "MeetingAnalytics",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Meeting",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Transcript",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Meeting",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Participant",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "routers.users",
+        "description": "routers.users",
+        "isExtraImport": true,
+        "detail": "routers.users",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "routers.users",
+        "description": "routers.users",
+        "isExtraImport": true,
+        "detail": "routers.users",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "routers.users",
+        "description": "routers.users",
+        "isExtraImport": true,
+        "detail": "routers.users",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "routers.users",
+        "description": "routers.users",
+        "isExtraImport": true,
+        "detail": "routers.users",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "routers.users",
+        "description": "routers.users",
+        "isExtraImport": true,
+        "detail": "routers.users",
+        "documentation": {}
+    },
+    {
+        "label": "generate_summary",
+        "importPath": "services.groq_service",
+        "description": "services.groq_service",
+        "isExtraImport": true,
+        "detail": "services.groq_service",
+        "documentation": {}
+    },
+    {
+        "label": "extract_action_items",
+        "importPath": "services.groq_service",
+        "description": "services.groq_service",
+        "isExtraImport": true,
+        "detail": "services.groq_service",
+        "documentation": {}
+    },
+    {
+        "label": "chat_with_meeting",
+        "importPath": "services.groq_service",
+        "description": "services.groq_service",
+        "isExtraImport": true,
+        "detail": "services.groq_service",
+        "documentation": {}
+    },
+    {
+        "label": "detect_conflict",
+        "importPath": "services.groq_service",
+        "description": "services.groq_service",
+        "isExtraImport": true,
+        "detail": "services.groq_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_coach_feedback",
+        "importPath": "services.groq_service",
+        "description": "services.groq_service",
+        "isExtraImport": true,
+        "detail": "services.groq_service",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_ideas",
+        "importPath": "services.groq_service",
+        "description": "services.groq_service",
+        "isExtraImport": true,
+        "detail": "services.groq_service",
+        "documentation": {}
+    },
+    {
+        "label": "segment_topics",
+        "importPath": "services.groq_service",
+        "description": "services.groq_service",
+        "isExtraImport": true,
+        "detail": "services.groq_service",
+        "documentation": {}
+    },
+    {
+        "label": "compute_participation",
+        "importPath": "services.analytics_service",
+        "description": "services.analytics_service",
+        "isExtraImport": true,
+        "detail": "services.analytics_service",
+        "documentation": {}
+    },
+    {
+        "label": "compute_performance_score",
+        "importPath": "services.analytics_service",
+        "description": "services.analytics_service",
+        "isExtraImport": true,
+        "detail": "services.analytics_service",
+        "documentation": {}
+    },
+    {
+        "label": "build_speaking_graph",
+        "importPath": "services.analytics_service",
+        "description": "services.analytics_service",
+        "isExtraImport": true,
+        "detail": "services.analytics_service",
+        "documentation": {}
+    },
+    {
+        "label": "compute_participation",
+        "importPath": "services.analytics_service",
+        "description": "services.analytics_service",
+        "isExtraImport": true,
+        "detail": "services.analytics_service",
+        "documentation": {}
+    },
+    {
+        "label": "compute_performance_score",
+        "importPath": "services.analytics_service",
+        "description": "services.analytics_service",
+        "isExtraImport": true,
+        "detail": "services.analytics_service",
+        "documentation": {}
+    },
+    {
+        "label": "build_speaking_graph",
+        "importPath": "services.analytics_service",
+        "description": "services.analytics_service",
+        "isExtraImport": true,
+        "detail": "services.analytics_service",
+        "documentation": {}
+    },
+    {
+        "label": "detect_interruptions",
+        "importPath": "services.analytics_service",
+        "description": "services.analytics_service",
+        "isExtraImport": true,
+        "detail": "services.analytics_service",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "generate_meeting_pdf",
+        "importPath": "services.pdf_service",
+        "description": "services.pdf_service",
+        "isExtraImport": true,
+        "detail": "services.pdf_service",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "upload_recording",
+        "importPath": "services.minio_service",
+        "description": "services.minio_service",
+        "isExtraImport": true,
+        "detail": "services.minio_service",
+        "documentation": {}
+    },
+    {
+        "label": "delete_recording",
+        "importPath": "services.minio_service",
+        "description": "services.minio_service",
+        "isExtraImport": true,
+        "detail": "services.minio_service",
+        "documentation": {}
+    },
+    {
+        "label": "httpx,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "httpx.",
+        "description": "httpx.",
+        "detail": "httpx.",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "os,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.",
+        "description": "os.",
+        "detail": "os.",
+        "documentation": {}
+    },
+    {
+        "label": "Minio",
+        "importPath": "minio",
+        "description": "minio",
+        "isExtraImport": true,
+        "detail": "minio",
+        "documentation": {}
+    },
+    {
+        "label": "Minio",
+        "importPath": "minio",
+        "description": "minio",
+        "isExtraImport": true,
+        "detail": "minio",
+        "documentation": {}
+    },
+    {
+        "label": "S3Error",
+        "importPath": "minio.error",
+        "description": "minio.error",
+        "isExtraImport": true,
+        "detail": "minio.error",
+        "documentation": {}
+    },
+    {
+        "label": "A4",
+        "importPath": "reportlab.lib.pagesizes",
+        "description": "reportlab.lib.pagesizes",
+        "isExtraImport": true,
+        "detail": "reportlab.lib.pagesizes",
+        "documentation": {}
+    },
+    {
+        "label": "colors",
+        "importPath": "reportlab.lib",
+        "description": "reportlab.lib",
+        "isExtraImport": true,
+        "detail": "reportlab.lib",
+        "documentation": {}
+    },
+    {
+        "label": "getSampleStyleSheet",
+        "importPath": "reportlab.lib.styles",
+        "description": "reportlab.lib.styles",
+        "isExtraImport": true,
+        "detail": "reportlab.lib.styles",
+        "documentation": {}
+    },
+    {
+        "label": "ParagraphStyle",
+        "importPath": "reportlab.lib.styles",
+        "description": "reportlab.lib.styles",
+        "isExtraImport": true,
+        "detail": "reportlab.lib.styles",
+        "documentation": {}
+    },
+    {
+        "label": "cm",
+        "importPath": "reportlab.lib.units",
+        "description": "reportlab.lib.units",
+        "isExtraImport": true,
+        "detail": "reportlab.lib.units",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleDocTemplate",
+        "importPath": "reportlab.platypus",
+        "description": "reportlab.platypus",
+        "isExtraImport": true,
+        "detail": "reportlab.platypus",
+        "documentation": {}
+    },
+    {
+        "label": "Paragraph",
+        "importPath": "reportlab.platypus",
+        "description": "reportlab.platypus",
+        "isExtraImport": true,
+        "detail": "reportlab.platypus",
+        "documentation": {}
+    },
+    {
+        "label": "Spacer",
+        "importPath": "reportlab.platypus",
+        "description": "reportlab.platypus",
+        "isExtraImport": true,
+        "detail": "reportlab.platypus",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "reportlab.platypus",
+        "description": "reportlab.platypus",
+        "isExtraImport": true,
+        "detail": "reportlab.platypus",
+        "documentation": {}
+    },
+    {
+        "label": "TableStyle",
+        "importPath": "reportlab.platypus",
+        "description": "reportlab.platypus",
+        "isExtraImport": true,
+        "detail": "reportlab.platypus",
+        "documentation": {}
+    },
+    {
+        "label": "HRFlowable",
+        "importPath": "reportlab.platypus",
+        "description": "reportlab.platypus",
+        "isExtraImport": true,
+        "detail": "reportlab.platypus",
+        "documentation": {}
+    },
+    {
+        "label": "TA_CENTER",
+        "importPath": "reportlab.lib.enums",
+        "description": "reportlab.lib.enums",
+        "isExtraImport": true,
+        "detail": "reportlab.lib.enums",
+        "documentation": {}
+    },
+    {
+        "label": "TA_LEFT",
+        "importPath": "reportlab.lib.enums",
+        "description": "reportlab.lib.enums",
+        "isExtraImport": true,
+        "detail": "reportlab.lib.enums",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "meetings",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "transcription",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "analytics",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "ai",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "users",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "recordings",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "signaling",
+        "description": "signaling",
+        "isExtraImport": true,
+        "detail": "signaling",
+        "documentation": {}
+    },
+    {
+        "label": "uvicorn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "kind": 6,
+        "importPath": "backend.routers.ai",
+        "description": "backend.routers.ai",
+        "peekOfCode": "class ChatRequest(BaseModel):\n    question: str\n    meeting_id: str\nclass ConflictRequest(BaseModel):\n    recent_text: str\n    meeting_id: str\n# ── Internal helper ───────────────────────────────────────────\nasync def _generate_and_save_summary(meeting_id: str, db: AsyncSession):\n    \"\"\"Called when meeting ends. Generates and saves all AI insights.\"\"\"\n    # Get all transcripts",
+        "detail": "backend.routers.ai",
+        "documentation": {}
+    },
+    {
+        "label": "ConflictRequest",
+        "kind": 6,
+        "importPath": "backend.routers.ai",
+        "description": "backend.routers.ai",
+        "peekOfCode": "class ConflictRequest(BaseModel):\n    recent_text: str\n    meeting_id: str\n# ── Internal helper ───────────────────────────────────────────\nasync def _generate_and_save_summary(meeting_id: str, db: AsyncSession):\n    \"\"\"Called when meeting ends. Generates and saves all AI insights.\"\"\"\n    # Get all transcripts\n    trans_res = await db.execute(\n        select(Transcript).where(Transcript.meeting_id == meeting_id).order_by(Transcript.timestamp_sec)\n    )",
+        "detail": "backend.routers.ai",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.routers.ai",
+        "description": "backend.routers.ai",
+        "peekOfCode": "router = APIRouter()\nclass ChatRequest(BaseModel):\n    question: str\n    meeting_id: str\nclass ConflictRequest(BaseModel):\n    recent_text: str\n    meeting_id: str\n# ── Internal helper ───────────────────────────────────────────\nasync def _generate_and_save_summary(meeting_id: str, db: AsyncSession):\n    \"\"\"Called when meeting ends. Generates and saves all AI insights.\"\"\"",
+        "detail": "backend.routers.ai",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.routers.analytics",
+        "description": "backend.routers.analytics",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/{meeting_id}\")\nasync def get_analytics(meeting_id: str, request: Request, db: AsyncSession = Depends(get_db)):\n    user = await get_current_user(request)\n    res = await db.execute(select(Meeting).where(Meeting.id == meeting_id, Meeting.user_id == user[\"id\"]))\n    if not res.scalar_one_or_none():\n        raise HTTPException(404, \"Meeting not found\")\n    # Load saved analytics\n    ana_res = await db.execute(select(MeetingAnalytics).where(MeetingAnalytics.meeting_id == meeting_id))\n    analytics = ana_res.scalar_one_or_none()",
+        "detail": "backend.routers.analytics",
+        "documentation": {}
+    },
+    {
+        "label": "CreateMeetingRequest",
+        "kind": 6,
+        "importPath": "backend.routers.meetings",
+        "description": "backend.routers.meetings",
+        "peekOfCode": "class CreateMeetingRequest(BaseModel):\n    title: str = \"Untitled Meeting\"\nclass RenameMeetingRequest(BaseModel):\n    title: str\nasync def get_meeting_or_404(meeting_id: str, user_id: str, db: AsyncSession) -> Meeting:\n    \"\"\"Owner-only lookup — used for destructive actions (end, delete, rename).\"\"\"\n    result = await db.execute(\n        select(Meeting).where(Meeting.id == meeting_id, Meeting.user_id == user_id)\n    )\n    meeting = result.scalar_one_or_none()",
+        "detail": "backend.routers.meetings",
+        "documentation": {}
+    },
+    {
+        "label": "RenameMeetingRequest",
+        "kind": 6,
+        "importPath": "backend.routers.meetings",
+        "description": "backend.routers.meetings",
+        "peekOfCode": "class RenameMeetingRequest(BaseModel):\n    title: str\nasync def get_meeting_or_404(meeting_id: str, user_id: str, db: AsyncSession) -> Meeting:\n    \"\"\"Owner-only lookup — used for destructive actions (end, delete, rename).\"\"\"\n    result = await db.execute(\n        select(Meeting).where(Meeting.id == meeting_id, Meeting.user_id == user_id)\n    )\n    meeting = result.scalar_one_or_none()\n    if not meeting:\n        raise HTTPException(status_code=404, detail=\"Meeting not found\")",
+        "detail": "backend.routers.meetings",
+        "documentation": {}
+    },
+    {
+        "label": "meeting_to_dict",
+        "kind": 2,
+        "importPath": "backend.routers.meetings",
+        "description": "backend.routers.meetings",
+        "peekOfCode": "def meeting_to_dict(m: Meeting) -> dict:\n    duration_sec = m.duration_seconds or 0\n    duration_min = duration_sec // 60\n    duration_str = f\"{duration_min} min\" if duration_min else \"< 1 min\"\n    return {\n        \"id\":                m.id,\n        \"title\":             m.title,\n        \"status\":            m.status,\n        \"created_at\":        m.created_at.isoformat() if m.created_at else None,\n        \"ended_at\":          m.ended_at.isoformat()   if m.ended_at   else None,",
+        "detail": "backend.routers.meetings",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.routers.meetings",
+        "description": "backend.routers.meetings",
+        "peekOfCode": "router = APIRouter()\nclass CreateMeetingRequest(BaseModel):\n    title: str = \"Untitled Meeting\"\nclass RenameMeetingRequest(BaseModel):\n    title: str\nasync def get_meeting_or_404(meeting_id: str, user_id: str, db: AsyncSession) -> Meeting:\n    \"\"\"Owner-only lookup — used for destructive actions (end, delete, rename).\"\"\"\n    result = await db.execute(\n        select(Meeting).where(Meeting.id == meeting_id, Meeting.user_id == user_id)\n    )",
+        "detail": "backend.routers.meetings",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.routers.recordings",
+        "description": "backend.routers.recordings",
+        "peekOfCode": "router = APIRouter()\n@router.post(\"/{meeting_id}/upload\")\nasync def upload(\n    meeting_id: str,\n    request: Request,\n    file: UploadFile = File(...),\n    db: AsyncSession = Depends(get_db),\n):\n    user = await get_current_user(request)\n    res  = await db.execute(select(Meeting).where(Meeting.id == meeting_id, Meeting.user_id == user[\"id\"]))",
+        "detail": "backend.routers.recordings",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.routers.transcription",
+        "description": "backend.routers.transcription",
+        "peekOfCode": "router = APIRouter()\n# ── Save text transcript ───────────────────────────────────────────────────────\n@router.post(\"/{meeting_id}/text\")\nasync def save_text_transcript(\n    meeting_id: str,\n    request: Request,\n    db: AsyncSession = Depends(get_db),\n):\n    user = await get_current_user(request)\n    body = await request.json()",
+        "detail": "backend.routers.transcription",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.routers.users",
+        "description": "backend.routers.users",
+        "peekOfCode": "router = APIRouter()\nBETTER_AUTH_URL = os.getenv(\"BETTER_AUTH_URL\", \"http://localhost:8080\")\nasync def get_current_user(request: Request) -> dict:\n    \"\"\"Validate session with Better Auth and return user.\"\"\"\n    cookie = request.headers.get(\"cookie\", \"\")\n    auth_header = request.headers.get(\"authorization\", \"\")\n    async with httpx.AsyncClient() as client:\n        resp = await client.get(\n            f\"{BETTER_AUTH_URL}/api/auth/get-session\",\n            headers={",
+        "detail": "backend.routers.users",
+        "documentation": {}
+    },
+    {
+        "label": "BETTER_AUTH_URL",
+        "kind": 5,
+        "importPath": "backend.routers.users",
+        "description": "backend.routers.users",
+        "peekOfCode": "BETTER_AUTH_URL = os.getenv(\"BETTER_AUTH_URL\", \"http://localhost:8080\")\nasync def get_current_user(request: Request) -> dict:\n    \"\"\"Validate session with Better Auth and return user.\"\"\"\n    cookie = request.headers.get(\"cookie\", \"\")\n    auth_header = request.headers.get(\"authorization\", \"\")\n    async with httpx.AsyncClient() as client:\n        resp = await client.get(\n            f\"{BETTER_AUTH_URL}/api/auth/get-session\",\n            headers={\n                \"cookie\": cookie,",
+        "detail": "backend.routers.users",
+        "documentation": {}
+    },
+    {
+        "label": "compute_participation",
+        "kind": 2,
+        "importPath": "backend.services.analytics_service",
+        "description": "backend.services.analytics_service",
+        "peekOfCode": "def compute_participation(transcripts: list) -> dict:\n    \"\"\"Compute speaking stats per participant.\"\"\"\n    speaker_words    = defaultdict(int)\n    speaker_duration = defaultdict(float)\n    speaker_turns    = defaultdict(int)\n    for t in transcripts:\n        speaker  = t.get(\"speaker\", \"Unknown\")\n        text     = t.get(\"original_text\", \"\")\n        duration = t.get(\"end_sec\", 0) - t.get(\"start_sec\", 0)\n        speaker_words[speaker]    += len(text.split())",
+        "detail": "backend.services.analytics_service",
+        "documentation": {}
+    },
+    {
+        "label": "compute_performance_score",
+        "kind": 2,
+        "importPath": "backend.services.analytics_service",
+        "description": "backend.services.analytics_service",
+        "peekOfCode": "def compute_performance_score(data: dict) -> dict:\n    \"\"\"\n    Score the meeting 0-10 across dimensions.\n    data keys: num_participants, num_decisions, num_action_items,\n               duration_sec, num_conflicts, participation_breakdown\n    \"\"\"\n    scores = {}\n    # Participation balance (lower variance = better)\n    pcts = [v[\"participation_pct\"] for v in data.get(\"participation_breakdown\", {}).values()]\n    if pcts:",
+        "detail": "backend.services.analytics_service",
+        "documentation": {}
+    },
+    {
+        "label": "build_speaking_graph",
+        "kind": 2,
+        "importPath": "backend.services.analytics_service",
+        "description": "backend.services.analytics_service",
+        "peekOfCode": "def build_speaking_graph(transcripts: list) -> dict:\n    \"\"\"Build a time-series speaking graph {speaker: [seconds spoken per minute]}.\"\"\"\n    graph = defaultdict(lambda: defaultdict(float))\n    for t in transcripts:\n        speaker   = t.get(\"speaker\", \"Unknown\")\n        start_sec = t.get(\"start_sec\", 0)\n        end_sec   = t.get(\"end_sec\", start_sec)\n        minute    = int(start_sec // 60)\n        graph[speaker][minute] += max(0, end_sec - start_sec)\n    return {spk: dict(minutes) for spk, minutes in graph.items()}",
+        "detail": "backend.services.analytics_service",
+        "documentation": {}
+    },
+    {
+        "label": "detect_interruptions",
+        "kind": 2,
+        "importPath": "backend.services.analytics_service",
+        "description": "backend.services.analytics_service",
+        "peekOfCode": "def detect_interruptions(transcripts: list) -> list:\n    \"\"\"Detect when a speaker starts within 0.5s of the previous ending.\"\"\"\n    interruptions = []\n    for i in range(1, len(transcripts)):\n        prev = transcripts[i - 1]\n        curr = transcripts[i]\n        gap  = curr.get(\"start_sec\", 0) - prev.get(\"end_sec\", 0)\n        if -0.5 <= gap <= 0.3 and curr.get(\"speaker\") != prev.get(\"speaker\"):\n            interruptions.append({\n                \"time_sec\":    curr.get(\"start_sec\", 0),",
+        "detail": "backend.services.analytics_service",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "backend.services.groq_service",
+        "description": "backend.services.groq_service",
+        "peekOfCode": "client = Groq(api_key=os.getenv(\"GROQ_API_KEY\"))\nMODEL  = \"llama-3.3-70b-versatile\"\ndef _chat(system: str, user: str, json_mode=False) -> str:\n    kwargs = dict(\n        model=MODEL,\n        messages=[\n            {\"role\": \"system\", \"content\": system},\n            {\"role\": \"user\",   \"content\": user},\n        ],\n        temperature=0.3,",
+        "detail": "backend.services.groq_service",
+        "documentation": {}
+    },
+    {
+        "label": "ensure_bucket",
+        "kind": 2,
+        "importPath": "backend.services.minio_service",
+        "description": "backend.services.minio_service",
+        "peekOfCode": "def ensure_bucket():\n    try:\n        if not client.bucket_exists(BUCKET):\n            client.make_bucket(BUCKET)\n    except S3Error as e:\n        print(f\"MinIO bucket error: {e}\")\ndef upload_recording(data: bytes, meeting_id: str, content_type: str = \"video/webm\") -> str:\n    ensure_bucket()\n    key = f\"{meeting_id}/{uuid.uuid4()}.webm\"\n    client.put_object(",
+        "detail": "backend.services.minio_service",
+        "documentation": {}
+    },
+    {
+        "label": "upload_recording",
+        "kind": 2,
+        "importPath": "backend.services.minio_service",
+        "description": "backend.services.minio_service",
+        "peekOfCode": "def upload_recording(data: bytes, meeting_id: str, content_type: str = \"video/webm\") -> str:\n    ensure_bucket()\n    key = f\"{meeting_id}/{uuid.uuid4()}.webm\"\n    client.put_object(\n        BUCKET, key,\n        io.BytesIO(data),\n        length=len(data),\n        content_type=content_type,\n    )\n    return f\"http://{os.getenv('MINIO_ENDPOINT','localhost:9000')}/{BUCKET}/{key}\"",
+        "detail": "backend.services.minio_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_presigned_url",
+        "kind": 2,
+        "importPath": "backend.services.minio_service",
+        "description": "backend.services.minio_service",
+        "peekOfCode": "def get_presigned_url(object_key: str, expires_hours: int = 2) -> str:\n    from datetime import timedelta\n    return client.presigned_get_object(BUCKET, object_key, expires=timedelta(hours=expires_hours))\ndef delete_recording(object_key: str):\n    try:\n        client.remove_object(BUCKET, object_key)\n    except S3Error as e:\n        print(f\"MinIO delete error: {e}\")",
+        "detail": "backend.services.minio_service",
+        "documentation": {}
+    },
+    {
+        "label": "delete_recording",
+        "kind": 2,
+        "importPath": "backend.services.minio_service",
+        "description": "backend.services.minio_service",
+        "peekOfCode": "def delete_recording(object_key: str):\n    try:\n        client.remove_object(BUCKET, object_key)\n    except S3Error as e:\n        print(f\"MinIO delete error: {e}\")",
+        "detail": "backend.services.minio_service",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "backend.services.minio_service",
+        "description": "backend.services.minio_service",
+        "peekOfCode": "client = Minio(\n    os.getenv(\"MINIO_ENDPOINT\", \"localhost:9000\"),\n    access_key=os.getenv(\"MINIO_ACCESS_KEY\", \"minioadmin\"),\n    secret_key=os.getenv(\"MINIO_SECRET_KEY\", \"minioadmin\"),\n    secure=False,\n)\nBUCKET = os.getenv(\"MINIO_BUCKET\", \"neromeet-recordings\")\ndef ensure_bucket():\n    try:\n        if not client.bucket_exists(BUCKET):",
+        "detail": "backend.services.minio_service",
+        "documentation": {}
+    },
+    {
+        "label": "BUCKET",
+        "kind": 5,
+        "importPath": "backend.services.minio_service",
+        "description": "backend.services.minio_service",
+        "peekOfCode": "BUCKET = os.getenv(\"MINIO_BUCKET\", \"neromeet-recordings\")\ndef ensure_bucket():\n    try:\n        if not client.bucket_exists(BUCKET):\n            client.make_bucket(BUCKET)\n    except S3Error as e:\n        print(f\"MinIO bucket error: {e}\")\ndef upload_recording(data: bytes, meeting_id: str, content_type: str = \"video/webm\") -> str:\n    ensure_bucket()\n    key = f\"{meeting_id}/{uuid.uuid4()}.webm\"",
+        "detail": "backend.services.minio_service",
+        "documentation": {}
+    },
+    {
+        "label": "generate_meeting_pdf",
+        "kind": 2,
+        "importPath": "backend.services.pdf_service",
+        "description": "backend.services.pdf_service",
+        "peekOfCode": "def generate_meeting_pdf(meeting_data: dict) -> bytes:\n    buffer = io.BytesIO()\n    doc    = SimpleDocTemplate(buffer, pagesize=A4,\n                               rightMargin=2*cm, leftMargin=2*cm,\n                               topMargin=2*cm, bottomMargin=2*cm)\n    styles  = getSampleStyleSheet()\n    # Custom styles\n    title_style = ParagraphStyle(\"Title2\", parent=styles[\"Title\"],\n                                  fontSize=22, textColor=colors.HexColor(\"#6366f1\"),\n                                  spaceAfter=6)",
+        "detail": "backend.services.pdf_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_client",
+        "kind": 2,
+        "importPath": "backend.services.whisper_service",
+        "description": "backend.services.whisper_service",
+        "peekOfCode": "def get_client() -> Groq:\n    global _client\n    if _client is None:\n        api_key = os.getenv(\"GROQ_API_KEY\")\n        if not api_key:\n            raise RuntimeError(\"GROQ_API_KEY environment variable is not set\")\n        _client = Groq(api_key=api_key)\n    return _client\nHALLUCINATIONS = {\n    \"thank you\", \"thanks for watching\", \"thank you for watching\",",
+        "detail": "backend.services.whisper_service",
+        "documentation": {}
+    },
+    {
+        "label": "remove_repetitions",
+        "kind": 2,
+        "importPath": "backend.services.whisper_service",
+        "description": "backend.services.whisper_service",
+        "peekOfCode": "def remove_repetitions(text: str) -> str:\n    text = re.sub(r'\\b(\\w+)(\\s+\\1){2,}\\b', r'\\1', text, flags=re.IGNORECASE)\n    text = re.sub(r'\\b(\\w+)(\\s+\\1)\\b', r'\\1', text, flags=re.IGNORECASE)\n    words = text.split()\n    if len(words) < 6:\n        return text.strip()\n    cleaned = []\n    i = 0\n    while i < len(words):\n        found = False",
+        "detail": "backend.services.whisper_service",
+        "documentation": {}
+    },
+    {
+        "label": "has_garbage_chars",
+        "kind": 2,
+        "importPath": "backend.services.whisper_service",
+        "description": "backend.services.whisper_service",
+        "peekOfCode": "def has_garbage_chars(text: str) -> bool:\n    if \"\\ufffd\" in text or \"â\" in text:\n        return True\n    if len(text.split()) <= 3:\n        non_latin = sum(1 for c in text if ord(c) > 591)\n        if non_latin > 4:\n            return True\n    return False\ndef is_language_jumble(text: str) -> bool:\n    if len(text.split()) > 12:",
+        "detail": "backend.services.whisper_service",
+        "documentation": {}
+    },
+    {
+        "label": "is_language_jumble",
+        "kind": 2,
+        "importPath": "backend.services.whisper_service",
+        "description": "backend.services.whisper_service",
+        "peekOfCode": "def is_language_jumble(text: str) -> bool:\n    if len(text.split()) > 12:\n        return False\n    scripts = {\n        \"latin\":      bool(re.search(r'[a-zA-Z]', text)),\n        \"devanagari\": bool(re.search(r'[\\u0900-\\u097F]', text)),\n        \"arabic\":     bool(re.search(r'[\\u0600-\\u06FF]', text)),\n        \"cyrillic\":   bool(re.search(r'[\\u0400-\\u04FF]', text)),\n        \"cjk\":        bool(re.search(r'[\\u4E00-\\u9FFF\\u3040-\\u30FF]', text)),\n        \"thai\":       bool(re.search(r'[\\u0E00-\\u0E7F]', text)),",
+        "detail": "backend.services.whisper_service",
+        "documentation": {}
+    },
+    {
+        "label": "is_garbage",
+        "kind": 2,
+        "importPath": "backend.services.whisper_service",
+        "description": "backend.services.whisper_service",
+        "peekOfCode": "def is_garbage(text: str) -> bool:\n    s = text.strip()\n    if not s:\n        return True\n    if has_garbage_chars(s):\n        print(f\"🗑️ Garbage chars: {repr(s[:60])}\")\n        return True\n    words = s.split()\n    if len(words) < 2:\n        return True",
+        "detail": "backend.services.whisper_service",
+        "documentation": {}
+    },
+    {
+        "label": "_client",
+        "kind": 5,
+        "importPath": "backend.services.whisper_service",
+        "description": "backend.services.whisper_service",
+        "peekOfCode": "_client = None\ndef get_client() -> Groq:\n    global _client\n    if _client is None:\n        api_key = os.getenv(\"GROQ_API_KEY\")\n        if not api_key:\n            raise RuntimeError(\"GROQ_API_KEY environment variable is not set\")\n        _client = Groq(api_key=api_key)\n    return _client\nHALLUCINATIONS = {",
+        "detail": "backend.services.whisper_service",
+        "documentation": {}
+    },
+    {
+        "label": "HALLUCINATIONS",
+        "kind": 5,
+        "importPath": "backend.services.whisper_service",
+        "description": "backend.services.whisper_service",
+        "peekOfCode": "HALLUCINATIONS = {\n    \"thank you\", \"thanks for watching\", \"thank you for watching\",\n    \"thanks for watching!\", \"thank you!\", \".\", \"..\", \"...\", \"bye\",\n    \"bye bye\", \"please subscribe\", \"subtitles by\", \"[music]\",\n    \"[applause]\", \"[silence]\", \"[ silence ]\", \"you\", \"yes\", \"no\",\n    \"okay\", \"ok\", \"hmm\", \"um\", \"uh\", \"ah\", \"oh\", \"eh\",\n    \"all right\", \"alright\", \"sure\", \"right\",\n}\ndef remove_repetitions(text: str) -> str:\n    text = re.sub(r'\\b(\\w+)(\\s+\\1){2,}\\b', r'\\1', text, flags=re.IGNORECASE)",
+        "detail": "backend.services.whisper_service",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "backend.database",
+        "description": "backend.database",
+        "peekOfCode": "DATABASE_URL = os.getenv(\"DATABASE_URL\", \"sqlite+aiosqlite:///C:/projects/meet-ai/neromeet_app.db\")\nengine = create_async_engine(DATABASE_URL, echo=False)\nAsyncSessionLocal = sessionmaker(engine, class_=AsyncSession, expire_on_commit=False)\nBase = declarative_base()\nasync def get_db():\n    async with AsyncSessionLocal() as session:\n        try:\n            yield session\n        finally:\n            await session.close()",
+        "detail": "backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "backend.database",
+        "description": "backend.database",
+        "peekOfCode": "engine = create_async_engine(DATABASE_URL, echo=False)\nAsyncSessionLocal = sessionmaker(engine, class_=AsyncSession, expire_on_commit=False)\nBase = declarative_base()\nasync def get_db():\n    async with AsyncSessionLocal() as session:\n        try:\n            yield session\n        finally:\n            await session.close()",
+        "detail": "backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSessionLocal",
+        "kind": 5,
+        "importPath": "backend.database",
+        "description": "backend.database",
+        "peekOfCode": "AsyncSessionLocal = sessionmaker(engine, class_=AsyncSession, expire_on_commit=False)\nBase = declarative_base()\nasync def get_db():\n    async with AsyncSessionLocal() as session:\n        try:\n            yield session\n        finally:\n            await session.close()",
+        "detail": "backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "backend.database",
+        "description": "backend.database",
+        "peekOfCode": "Base = declarative_base()\nasync def get_db():\n    async with AsyncSessionLocal() as session:\n        try:\n            yield session\n        finally:\n            await session.close()",
+        "detail": "backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "GROQ_API_KEY",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "GROQ_API_KEY = os.getenv(\"GROQ_API_KEY\")\nif not GROQ_API_KEY:\n    raise RuntimeError(\"❌ GROQ_API_KEY is not set in your .env file\")\nprint(f\"✅ GROQ_API_KEY loaded: {GROQ_API_KEY[:8]}...\")\nfrom fastapi import FastAPI\nfrom fastapi.middleware.cors import CORSMiddleware\nfrom contextlib import asynccontextmanager\nfrom database import engine, Base\nfrom routers import meetings, transcription, analytics, ai, users, recordings\nfrom signaling import router as signaling_router",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "app = FastAPI(\n    title=\"NeroMeet AI Backend\",\n    version=\"1.0.0\",\n    lifespan=lifespan,\n)\nALLOWED_ORIGINS = os.getenv(\n    \"ALLOWED_ORIGINS\", \"http://localhost:5173\"\n).split(\",\")\napp.add_middleware(\n    CORSMiddleware,",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_ORIGINS",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "ALLOWED_ORIGINS = os.getenv(\n    \"ALLOWED_ORIGINS\", \"http://localhost:5173\"\n).split(\",\")\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=ALLOWED_ORIGINS,\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "Meeting",
+        "kind": 6,
+        "importPath": "backend.models",
+        "description": "backend.models",
+        "peekOfCode": "class Meeting(Base):\n    __tablename__ = \"meetings\"\n    id              = Column(String, primary_key=True, default=gen_id)\n    user_id         = Column(String, nullable=False, index=True)\n    title           = Column(String, nullable=False, default=\"Untitled Meeting\")\n    status          = Column(String, default=\"active\")   # active | ended\n    language        = Column(String, default=\"en\")\n    created_at      = Column(DateTime, default=datetime.utcnow)\n    ended_at        = Column(DateTime, nullable=True)\n    duration_seconds= Column(Integer, default=0)",
+        "detail": "backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "Transcript",
+        "kind": 6,
+        "importPath": "backend.models",
+        "description": "backend.models",
+        "peekOfCode": "class Transcript(Base):\n    __tablename__ = \"transcripts\"\n    id              = Column(String, primary_key=True, default=gen_id)\n    meeting_id      = Column(String, ForeignKey(\"meetings.id\"), nullable=False)\n    speaker         = Column(String, default=\"Unknown\")\n    original_text   = Column(Text, nullable=False)\n    translated_text = Column(Text, nullable=True)\n    original_lang   = Column(String, default=\"en\")\n    timestamp_sec   = Column(Float, default=0.0)\n    created_at      = Column(DateTime, default=datetime.utcnow)",
+        "detail": "backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "Participant",
+        "kind": 6,
+        "importPath": "backend.models",
+        "description": "backend.models",
+        "peekOfCode": "class Participant(Base):\n    __tablename__ = \"participants\"\n    id                  = Column(String, primary_key=True, default=gen_id)\n    meeting_id          = Column(String, ForeignKey(\"meetings.id\"), nullable=False)\n    user_id             = Column(String, nullable=True)\n    name                = Column(String, nullable=False)\n    email               = Column(String, nullable=True)\n    speaking_duration   = Column(Float, default=0.0)   # seconds\n    word_count          = Column(Integer, default=0)\n    interruption_count  = Column(Integer, default=0)",
+        "detail": "backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "ActionItem",
+        "kind": 6,
+        "importPath": "backend.models",
+        "description": "backend.models",
+        "peekOfCode": "class ActionItem(Base):\n    __tablename__ = \"action_items\"\n    id              = Column(String, primary_key=True, default=gen_id)\n    meeting_id      = Column(String, ForeignKey(\"meetings.id\"), nullable=False)\n    task            = Column(Text, nullable=False)\n    assigned_to     = Column(String, nullable=True)\n    context         = Column(Text, nullable=True)\n    status          = Column(String, default=\"pending\")  # pending | done\n    created_at      = Column(DateTime, default=datetime.utcnow)\n    meeting         = relationship(\"Meeting\", back_populates=\"action_items\")",
+        "detail": "backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "MeetingSummary",
+        "kind": 6,
+        "importPath": "backend.models",
+        "description": "backend.models",
+        "peekOfCode": "class MeetingSummary(Base):\n    __tablename__ = \"meeting_summaries\"\n    id              = Column(String, primary_key=True, default=gen_id)\n    meeting_id      = Column(String, ForeignKey(\"meetings.id\"), nullable=False, unique=True)\n    full_summary    = Column(Text, nullable=True)\n    key_points      = Column(JSON, default=list)       # [\"point1\", \"point2\"]\n    decisions       = Column(JSON, default=list)\n    best_idea       = Column(Text, nullable=True)\n    topics          = Column(JSON, default=list)       # [{label, start_sec, end_sec}]\n    conflicts       = Column(JSON, default=list)       # [{time, description}]",
+        "detail": "backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "MeetingAnalytics",
+        "kind": 6,
+        "importPath": "backend.models",
+        "description": "backend.models",
+        "peekOfCode": "class MeetingAnalytics(Base):\n    __tablename__ = \"meeting_analytics\"\n    id                      = Column(String, primary_key=True, default=gen_id)\n    meeting_id              = Column(String, ForeignKey(\"meetings.id\"), nullable=False, unique=True)\n    speaking_graph          = Column(JSON, default=dict)   # {speaker: [sec,...]}\n    attention_timeline      = Column(JSON, default=list)   # [{t, score}]\n    emotion_timeline        = Column(JSON, default=list)   # [{t, emotion}]\n    topic_flow              = Column(JSON, default=list)   # [{label, duration}]\n    conflict_moments        = Column(JSON, default=list)\n    participation_breakdown = Column(JSON, default=dict)   # {speaker: pct}",
+        "detail": "backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "gen_id",
+        "kind": 2,
+        "importPath": "backend.models",
+        "description": "backend.models",
+        "peekOfCode": "def gen_id():\n    return str(uuid.uuid4())\nclass Meeting(Base):\n    __tablename__ = \"meetings\"\n    id              = Column(String, primary_key=True, default=gen_id)\n    user_id         = Column(String, nullable=False, index=True)\n    title           = Column(String, nullable=False, default=\"Untitled Meeting\")\n    status          = Column(String, default=\"active\")   # active | ended\n    language        = Column(String, default=\"en\")\n    created_at      = Column(DateTime, default=datetime.utcnow)",
+        "detail": "backend.models",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.signaling",
+        "description": "backend.signaling",
+        "peekOfCode": "router = APIRouter()\nlogger = logging.getLogger(\"signaling\")\n# room_id → { \"host\": WebSocket | None, \"participant\": WebSocket | None }\nrooms: Dict[str, Dict] = {}\nasync def _send(ws: WebSocket, data: dict):\n    try:\n        await ws.send_text(json.dumps(data))\n    except Exception:\n        pass\n@router.websocket(\"/ws/{room_id}\")",
+        "detail": "backend.signaling",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.signaling",
+        "description": "backend.signaling",
+        "peekOfCode": "logger = logging.getLogger(\"signaling\")\n# room_id → { \"host\": WebSocket | None, \"participant\": WebSocket | None }\nrooms: Dict[str, Dict] = {}\nasync def _send(ws: WebSocket, data: dict):\n    try:\n        await ws.send_text(json.dumps(data))\n    except Exception:\n        pass\n@router.websocket(\"/ws/{room_id}\")\nasync def signaling_ws(websocket: WebSocket, room_id: str):",
+        "detail": "backend.signaling",
+        "documentation": {}
+    },
+    {
+        "label": "upload_pdf_report",
+        "kind": 2,
+        "importPath": "backend.storage",
+        "description": "backend.storage",
+        "peekOfCode": "def upload_pdf_report(meeting_id: str, pdf_bytes: bytes) -> str:\n    \"\"\"Upload PDF report to MinIO and return URL.\"\"\"\n    if not s3_client:\n        return \"\"\n    object_name = f\"reports/{meeting_id}.pdf\"\n    s3_client.put_object(\n        BUCKET_NAME,\n        object_name,\n        io.BytesIO(pdf_bytes),\n        length=len(pdf_bytes),",
+        "detail": "backend.storage",
+        "documentation": {}
+    },
+    {
+        "label": "MINIO_ENDPOINT",
+        "kind": 5,
+        "importPath": "backend.storage",
+        "description": "backend.storage",
+        "peekOfCode": "MINIO_ENDPOINT = os.getenv(\"MINIO_ENDPOINT\", \"localhost:9000\")\nMINIO_ACCESS_KEY = os.getenv(\"MINIO_ACCESS_KEY\", \"minioadmin\")\nMINIO_SECRET_KEY = os.getenv(\"MINIO_SECRET_KEY\", \"minioadmin\")\nBUCKET_NAME = \"neromeet-records\"\ntry:\n    s3_client = Minio(\n        MINIO_ENDPOINT,\n        access_key=MINIO_ACCESS_KEY,\n        secret_key=MINIO_SECRET_KEY,\n        secure=False",
+        "detail": "backend.storage",
+        "documentation": {}
+    },
+    {
+        "label": "MINIO_ACCESS_KEY",
+        "kind": 5,
+        "importPath": "backend.storage",
+        "description": "backend.storage",
+        "peekOfCode": "MINIO_ACCESS_KEY = os.getenv(\"MINIO_ACCESS_KEY\", \"minioadmin\")\nMINIO_SECRET_KEY = os.getenv(\"MINIO_SECRET_KEY\", \"minioadmin\")\nBUCKET_NAME = \"neromeet-records\"\ntry:\n    s3_client = Minio(\n        MINIO_ENDPOINT,\n        access_key=MINIO_ACCESS_KEY,\n        secret_key=MINIO_SECRET_KEY,\n        secure=False\n    )",
+        "detail": "backend.storage",
+        "documentation": {}
+    },
+    {
+        "label": "MINIO_SECRET_KEY",
+        "kind": 5,
+        "importPath": "backend.storage",
+        "description": "backend.storage",
+        "peekOfCode": "MINIO_SECRET_KEY = os.getenv(\"MINIO_SECRET_KEY\", \"minioadmin\")\nBUCKET_NAME = \"neromeet-records\"\ntry:\n    s3_client = Minio(\n        MINIO_ENDPOINT,\n        access_key=MINIO_ACCESS_KEY,\n        secret_key=MINIO_SECRET_KEY,\n        secure=False\n    )\n    if not s3_client.bucket_exists(BUCKET_NAME):",
+        "detail": "backend.storage",
+        "documentation": {}
+    },
+    {
+        "label": "BUCKET_NAME",
+        "kind": 5,
+        "importPath": "backend.storage",
+        "description": "backend.storage",
+        "peekOfCode": "BUCKET_NAME = \"neromeet-records\"\ntry:\n    s3_client = Minio(\n        MINIO_ENDPOINT,\n        access_key=MINIO_ACCESS_KEY,\n        secret_key=MINIO_SECRET_KEY,\n        secure=False\n    )\n    if not s3_client.bucket_exists(BUCKET_NAME):\n        s3_client.make_bucket(BUCKET_NAME)",
+        "detail": "backend.storage",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i\ndef _object_keys(value):\n    for key in value:\n        yield key\ndef _is_array(value):",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    }
+]

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeroMeet AI — Meetings that think</title>
+
+    <!--
+      THEME FLASH PREVENTION
+      Runs before React loads — sets data-theme on <html> immediately
+      so there is zero white flash on dark mode
+    -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('nm-theme') || 'system';
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = saved === 'system' ? (prefersDark ? 'dark' : 'light') : saved;
+          document.documentElement.setAttribute('data-theme', theme);
+          if (theme === 'dark') document.documentElement.classList.add('dark');
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
