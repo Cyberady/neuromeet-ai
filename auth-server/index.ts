@@ -87,6 +87,11 @@ try {
         },
       },
     },
+    advanced: {
+      ipAddress: {
+        ipAddressHeaders: ["x-forwarded-for"],
+      },
+    },
   });
 
   const app = express();
@@ -98,7 +103,6 @@ try {
     })
   );
 
-  // ✅ Mount toNodeHandler at root — it handles /api/auth/* internally
   app.use(toNodeHandler(auth));
 
   app.get("/", (req, res) => {
