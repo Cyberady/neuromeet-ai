@@ -1,8 +1,8 @@
 import { createAuthClient } from "better-auth/react";
 
 export const authClient = createAuthClient({
-  baseURL: `${import.meta.env.VITE_AUTH_URL}/api/auth`,
+  baseURL: "https://neuromeet-auth.onrender.com", // ✅ NO /api/auth
   fetchOptions: {
-    credentials: "include", // 🔥 REQUIRED FOR COOKIES
+    credentials: "include",
   },
 });

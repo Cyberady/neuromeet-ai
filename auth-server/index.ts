@@ -77,6 +77,7 @@ try {
     },
     trustedOrigins: [
       "http://localhost:5173",
+      "http://localhost:8080",
       "https://neuromeet-ai.onrender.com",
       "https://neuromeet-auth.onrender.com",
     ],
@@ -99,12 +100,17 @@ try {
 
   app.use(
     cors({
-      origin: ["http://localhost:5173", "https://neuromeet-ai.onrender.com"],
+      origin: [
+        "http://localhost:5173",
+        "http://localhost:8080",
+        "https://neuromeet-ai.onrender.com",
+        "https://neuromeet-auth.onrender.com", // ✅ auth server itself for state cookie
+      ],
       credentials: true,
     })
   );
 
-  // ✅ Health routes FIRST — before toNodeHandler intercepts everything
+  // ✅ Health routes FIRST
   app.get("/", (_req, res) => {
     res.send("Auth Server Running ✅");
   });
