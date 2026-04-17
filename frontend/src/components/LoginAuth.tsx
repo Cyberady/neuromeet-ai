@@ -18,17 +18,12 @@ export function LoginAuth() {
   const txt3 = d ? "#a1a1aa" : "#64748b";
   const txt4 = d ? "#71717a"  : "#94a3b8";
 
-  const handleGoogleLogin = async () => {
-    setLoading(true); setError("");
-    try {
-      await authClient.signIn.social({
-        provider: "google",
-        callbackURL: "https://neuromeet-ai.onrender.com/dashboard",
-      });
-    } catch {
-      setError("Sign-in failed. Make sure Google OAuth is configured.");
-      setLoading(false);
-    }
+  const handleGoogleLogin = () => {
+  setLoading(true);
+
+  window.location.href =
+    `${import.meta.env.VITE_AUTH_URL}/api/auth/signin/google` +
+    `?callbackURL=${encodeURIComponent("https://neuromeet-ai.onrender.com/dashboard")}`;
   };
 
   return (
