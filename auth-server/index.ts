@@ -84,7 +84,9 @@ try {
       }
     },
 
-    trustedOrigins: ["*"]
+    trustedOrigins: [
+      "http://localhost:5173",
+      "https://neuromeet-ai.onrender.com"]
   });
 
   const app = express();

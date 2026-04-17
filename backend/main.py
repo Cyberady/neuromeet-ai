@@ -38,7 +38,7 @@ app = FastAPI(
 
 # 🌐 CORS CONFIG (IMPORTANT)
 ALLOWED_ORIGINS = os.getenv(
-    "ALLOWED_ORIGINS", "https://your-app.onrender.com"
+    "ALLOWED_ORIGINS", "https://neuromeet-ai.onrender.com"
 ).split(",")
 
 app.add_middleware(
