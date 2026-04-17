@@ -22,7 +22,7 @@ export function LoginAuth() {
   setLoading(true);
 
   window.location.href =
-    `${import.meta.env.VITE_AUTH_URL}/api/auth/signin/google` +
+    `${import.meta.env.VITE_AUTH_URL}/api/auth/sign-in/social/google` +
     `?callbackURL=${encodeURIComponent("https://neuromeet-ai.onrender.com/dashboard")}`;
   };
 
