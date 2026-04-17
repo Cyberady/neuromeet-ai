@@ -77,7 +77,12 @@ try {
     emailAndPassword: { enabled: true },
 
     // 🔥 TEMP: disable Google to isolate crash
-    socialProviders: {},
+    socialProviders: {
+      google: {
+        clientId: process.env.GOOGLE_CLIENT_ID!,
+        clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
+      }
+    }
 
     trustedOrigins: ["*"]
   });
