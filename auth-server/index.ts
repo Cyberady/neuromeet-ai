@@ -90,6 +90,15 @@ try {
     ],
   });
 
+   cookies: {
+      sessionToken: {
+        attributes: {
+          sameSite: "none",
+          secure: true,
+        },
+      },
+    },
+  });
   const app = express();
 
   // ✅ CORS (FIXED FOR COOKIES)
