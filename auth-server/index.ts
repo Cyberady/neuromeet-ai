@@ -7,7 +7,6 @@ import { toNodeHandler } from "better-auth/node";
 
 dotenv.config();
 
-// 🔍 DEBUG LOGS
 console.log("🚀 Starting Auth Server...");
 console.log("ENV CHECK:");
 console.log("BETTER_AUTH_URL:", process.env.BETTER_AUTH_URL);
@@ -16,7 +15,6 @@ console.log("GOOGLE_CLIENT_ID:", process.env.GOOGLE_CLIENT_ID ? "OK" : "MISSING"
 console.log("GOOGLE_CLIENT_SECRET:", process.env.GOOGLE_CLIENT_SECRET ? "OK" : "MISSING");
 
 try {
-  // ✅ DATABASE
   const db = new Database("./neromeet.db");
 
   db.exec(`
@@ -29,7 +27,6 @@ try {
       createdAt INTEGER NOT NULL,
       updatedAt INTEGER NOT NULL
     );
-
     CREATE TABLE IF NOT EXISTS session (
       id TEXT PRIMARY KEY,
       expiresAt INTEGER NOT NULL,
@@ -41,7 +38,6 @@ try {
       userId TEXT NOT NULL,
       FOREIGN KEY (userId) REFERENCES user(id)
     );
-
     CREATE TABLE IF NOT EXISTS account (
       id TEXT PRIMARY KEY,
       accountId TEXT NOT NULL,
@@ -58,7 +54,6 @@ try {
       updatedAt INTEGER NOT NULL,
       FOREIGN KEY (userId) REFERENCES user(id)
     );
-
     CREATE TABLE IF NOT EXISTS verification (
       id TEXT PRIMARY KEY,
       identifier TEXT NOT NULL,
@@ -69,27 +64,21 @@ try {
     );
   `);
 
-  // ✅ AUTH CONFIG
   const auth = betterAuth({
     database: db,
     baseURL: process.env.BETTER_AUTH_URL,
     secret: process.env.BETTER_AUTH_SECRET,
-
     emailAndPassword: { enabled: true },
-
     socialProviders: {
       google: {
         clientId: process.env.GOOGLE_CLIENT_ID!,
         clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
       },
     },
-
     trustedOrigins: [
       "http://localhost:5173",
       "https://neuromeet-ai.onrender.com",
     ],
-
-    // 🔥 COOKIE FIX
     cookies: {
       sessionToken: {
         attributes: {
@@ -102,24 +91,16 @@ try {
 
   const app = express();
 
-  // ✅ CORS
   app.use(
     cors({
-      origin: [
-        "http://localhost:5173",
-        "https://neuromeet-ai.onrender.com",
-      ],
+      origin: ["http://localhost:5173", "https://neuromeet-ai.onrender.com"],
       credentials: true,
     })
   );
 
-  // 🔥🔥🔥 FINAL FIX (VERY IMPORTANT)
-  app.all("/api/auth/*path", (req, res) => {
-    console.log(`[Auth] ${req.method} ${req.url}`);
-    return toNodeHandler(auth)(req, res);
-  });
+  // ✅ Mount toNodeHandler at root — it handles /api/auth/* internally
+  app.use(toNodeHandler(auth));
 
-  // ✅ TEST ROUTES
   app.get("/", (req, res) => {
     res.send("Auth Server Running ✅");
   });
@@ -128,7 +109,6 @@ try {
     res.status(200).json({ status: "ok" });
   });
 
-  // ✅ PORT
   const PORT = process.env.PORT || 8080;
 
   app.listen(PORT, () => {
