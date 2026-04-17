@@ -114,7 +114,7 @@ try {
   );
 
   // 🔥🔥🔥 FINAL FIX (VERY IMPORTANT)
-  app.all("/api/auth/*", (req, res) => {
+  app.all("/api/auth/*path", (req, res) => {
     console.log(`[Auth] ${req.method} ${req.url}`);
     return toNodeHandler(auth)(req, res);
   });
