@@ -1,13 +1,13 @@
-import express from 'express';
-import cors from 'cors';
-import { betterAuth } from 'better-auth';
-import Database from 'better-sqlite3';
-import dotenv from 'dotenv';
+import express from "express";
+import cors from "cors";
+import { betterAuth } from "better-auth";
+import Database from "better-sqlite3";
+import dotenv from "dotenv";
 import { toNodeHandler } from "better-auth/node";
 
 dotenv.config();
 
-// 🔍 DEBUG LOGS (VERY IMPORTANT)
+// 🔍 DEBUG LOGS
 console.log("🚀 Starting Auth Server...");
 console.log("ENV CHECK:");
 console.log("BETTER_AUTH_URL:", process.env.BETTER_AUTH_URL);
@@ -16,8 +16,8 @@ console.log("GOOGLE_CLIENT_ID:", process.env.GOOGLE_CLIENT_ID ? "OK" : "MISSING"
 console.log("GOOGLE_CLIENT_SECRET:", process.env.GOOGLE_CLIENT_SECRET ? "OK" : "MISSING");
 
 try {
-  // ✅ SQLite DB
-  const db = new Database('./neromeet.db');
+  // ✅ DATABASE
+  const db = new Database("./neromeet.db");
 
   db.exec(`
     CREATE TABLE IF NOT EXISTS user (
@@ -69,50 +69,56 @@ try {
     );
   `);
 
-  // ✅ Better Auth (GOOGLE TEMP DISABLED FOR DEBUG)
+  // ✅ AUTH CONFIG
   const auth = betterAuth({
     database: db,
     baseURL: process.env.BETTER_AUTH_URL,
     secret: process.env.BETTER_AUTH_SECRET,
+
     emailAndPassword: { enabled: true },
 
-    // 🔥 TEMP: disable Google to isolate crash
     socialProviders: {
       google: {
         clientId: process.env.GOOGLE_CLIENT_ID!,
         clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
-      }
+      },
     },
 
     trustedOrigins: [
       "http://localhost:5173",
-      "https://neuromeet-ai.onrender.com"]
+      "https://neuromeet-ai.onrender.com",
+    ],
   });
 
   const app = express();
 
-  // ✅ CORS (open for now)
-  app.use(cors({
-    origin: "*",
-    credentials: true,
-  }));
+  // ✅ CORS (FIXED FOR COOKIES)
+  app.use(
+    cors({
+      origin: [
+        "http://localhost:5173",
+        "https://neuromeet-ai.onrender.com",
+      ],
+      credentials: true,
+    })
+  );
 
-  // ✅ FIXED ROUTE
-  app.all("/api/auth/", (req, res) => {
-  console.log(`[Better Auth] ${req.method} ${req.url}`);
-  return toNodeHandler(auth)(req, res);
+  // ✅ AUTH ROUTES (FINAL FIX 🔥)
+  app.use("/api/auth", (req, res) => {
+    console.log(`[Auth] ${req.method} ${req.url}`);
+    return toNodeHandler(auth)(req, res);
   });
 
-  // ✅ ROOT TEST
+  // ✅ TEST ROUTES
   app.get("/", (req, res) => {
     res.send("Auth Server Running ✅");
   });
 
   app.get("/health", (req, res) => {
-  res.status(200).json({ status: "ok" });
+    res.status(200).json({ status: "ok" });
   });
 
-  // ✅ PORT FIX (RENDER)
+  // ✅ PORT (RENDER)
   const PORT = process.env.PORT || 8080;
 
   app.listen(PORT, () => {
