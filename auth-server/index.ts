@@ -69,7 +69,7 @@ try {
     );
   `);
 
-  // ✅ AUTH CONFIG (FIXED)
+  // ✅ AUTH CONFIG
   const auth = betterAuth({
     database: db,
     baseURL: process.env.BETTER_AUTH_URL,
@@ -89,7 +89,7 @@ try {
       "https://neuromeet-ai.onrender.com",
     ],
 
-    // 🔥 FIXED COOKIE CONFIG (INSIDE OBJECT)
+    // 🔥 COOKIE FIX
     cookies: {
       sessionToken: {
         attributes: {
@@ -102,7 +102,7 @@ try {
 
   const app = express();
 
-  // ✅ CORS (REQUIRED FOR COOKIES)
+  // ✅ CORS
   app.use(
     cors({
       origin: [
@@ -113,8 +113,8 @@ try {
     })
   );
 
-  // ✅ AUTH ROUTES
-  app.use("/api/auth", (req, res) => {
+  // 🔥🔥🔥 FINAL FIX (VERY IMPORTANT)
+  app.all("/api/auth/*", (req, res) => {
     console.log(`[Auth] ${req.method} ${req.url}`);
     return toNodeHandler(auth)(req, res);
   });
