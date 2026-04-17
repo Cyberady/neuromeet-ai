@@ -1,12 +1,12 @@
 import { useState } from "react";
-// import { authClient } from "@/lib/auth";
+import { authClient } from "@/lib/auth";
 import { useNavigate } from "react-router-dom";
 import { useTheme } from "@/lib/ThemeContext";
 
 export function LoginAuth() {
   const [loading, setLoading] = useState(false);
-  const [error,   _setError]   = useState("");
-  const navigate  = useNavigate();
+  const [error, setError] = useState("");
+  const navigate = useNavigate();
   const { resolved } = useTheme();
   const d = resolved === "dark";
 
@@ -18,12 +18,18 @@ export function LoginAuth() {
   const txt3 = d ? "#a1a1aa" : "#64748b";
   const txt4 = d ? "#71717a"  : "#94a3b8";
 
-  const handleGoogleLogin = () => {
-  setLoading(true);
-
-  window.location.href =
-    `${import.meta.env.VITE_AUTH_URL}/api/auth/sign-in/social/google` +
-    `?callbackURL=${encodeURIComponent("https://neuromeet-ai.onrender.com/dashboard")}`;
+  const handleGoogleLogin = async () => {
+    setLoading(true);
+    setError("");
+    try {
+      await authClient.signIn.social({
+        provider: "google",
+        callbackURL: "https://neuromeet-ai.onrender.com/dashboard",
+      });
+    } catch (err) {
+      setError("Failed to sign in with Google. Please try again.");
+      setLoading(false);
+    }
   };
 
   return (
@@ -67,7 +73,10 @@ export function LoginAuth() {
             </div>
 
             {/* Google button */}
-            <button onClick={handleGoogleLogin} disabled={loading} style={{ width: "100%", display: "flex", alignItems: "center", justifyContent: "center", gap: 9, background: bg2, color: txt, border: `1px solid ${bd}`, padding: "11px 18px", borderRadius: 9, fontFamily: "inherit", fontSize: 13.5, fontWeight: 600, cursor: loading ? "not-allowed" : "pointer", boxShadow: d ? "0 1px 4px rgba(0,0,0,0.3)" : "0 1px 4px rgba(0,0,0,0.05)", transition: "all 0.12s", opacity: loading ? 0.6 : 1 }}
+            <button
+              onClick={handleGoogleLogin}
+              disabled={loading}
+              style={{ width: "100%", display: "flex", alignItems: "center", justifyContent: "center", gap: 9, background: bg2, color: txt, border: `1px solid ${bd}`, padding: "11px 18px", borderRadius: 9, fontFamily: "inherit", fontSize: 13.5, fontWeight: 600, cursor: loading ? "not-allowed" : "pointer", boxShadow: d ? "0 1px 4px rgba(0,0,0,0.3)" : "0 1px 4px rgba(0,0,0,0.05)", transition: "all 0.12s", opacity: loading ? 0.6 : 1 }}
               onMouseEnter={e => { if (!loading) { (e.currentTarget as HTMLButtonElement).style.borderColor = bd2; (e.currentTarget as HTMLButtonElement).style.background = d ? "#18181b" : "#f8fafc"; }}}
               onMouseLeave={e => { (e.currentTarget as HTMLButtonElement).style.borderColor = bd; (e.currentTarget as HTMLButtonElement).style.background = bg2; }}>
               {loading
