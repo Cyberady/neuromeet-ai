@@ -91,7 +91,7 @@ try {
   }));
 
   // ✅ FIXED ROUTE
-  app.all("/api/auth/:path(*)", (req, res) => {
+  app.all("/api/auth/", (req, res) => {
   console.log(`[Better Auth] ${req.method} ${req.url}`);
   return toNodeHandler(auth)(req, res);
   });
