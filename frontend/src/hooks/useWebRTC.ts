@@ -110,7 +110,7 @@ export function useWebRTC({
   const [isCamOff,      setIsCamOff]       = useState(!initCam);
   const [isScreenSharing, setIsScreenSharing] = useState(false);
   const [isRecording,   setIsRecording]    = useState(false);
-  const [isTranscribing, setIsTranscribing] = useState(false);
+  const [isTranscribing] = useState(false);
   const [elapsed,       setElapsed]        = useState(0);
   const [peerName,      setPeerName]       = useState<string>("Participant");
 

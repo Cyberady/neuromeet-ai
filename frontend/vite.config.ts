@@ -11,7 +11,6 @@ export default defineConfig({
     },
   },
   server: {
-    port: 5173,
-    historyApiFallback: true, // ✅ fixes Cannot GET /dashboard on refresh
+    port: 5173
   }
 })

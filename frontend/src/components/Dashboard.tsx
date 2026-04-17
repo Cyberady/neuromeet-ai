@@ -16,7 +16,7 @@ const scoreBorder = (s: number) => s >= 8 ? "#bbf7d0" : s >= 6 ? "#fde68a" : s >
 export function Dashboard() {
   const navigate = useNavigate();
   const { theme, setTheme, resolved } = useTheme();
-  const isDark = resolved === "dark";
+  // const isDark = resolved === "dark";
   const [user,          setUser]          = useState<User | null>(null);
   const [meetings,      setMeetings]      = useState<Meeting[]>([]);
   const [stats,         setStats]         = useState<Stats | null>(null);
