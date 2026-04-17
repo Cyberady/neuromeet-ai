@@ -78,6 +78,7 @@ try {
     trustedOrigins: [
       "http://localhost:5173",
       "https://neuromeet-ai.onrender.com",
+      "https://neuromeet-auth.onrender.com",
     ],
     cookies: {
       sessionToken: {
