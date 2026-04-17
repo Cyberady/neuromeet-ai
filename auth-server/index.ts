@@ -101,6 +101,10 @@ try {
     res.send("Auth Server Running ✅");
   });
 
+  app.get("/health", (req, res) => {
+  res.status(200).json({ status: "ok" });
+  });
+
   // ✅ PORT FIX (RENDER)
   const PORT = process.env.PORT || 8080;
 
